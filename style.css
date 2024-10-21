@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "norse";
+  src: url("fonts/norse-bold-webfont.woff2"),
+    url("fonts/norse-bold-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+.main-container {
+  display: flex;
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  width: 32px;
+}
+
+
+
+
+
+
