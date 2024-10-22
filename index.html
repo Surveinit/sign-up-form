@@ -7,45 +7,68 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="main-container">
-      <div class="left-container">
-        <div class="logo">
-          <img id="odin-logo" src="assets/odin-lined.png" alt="odin-logo" />
-          <h2>ODIN</h2>
+    <div class="main_container">
+      <div class="left_container">
+        <div class="logo_container">
+          <img id="odin_logo" src="assets/odin-lined.png" alt="odin-logo" />
+          <h2 id="odin_text">ODIN</h2>
         </div>
         <img
-          id="dark_green_forest"
+          id="background_img"
           src="assets/dark_green_forest.jpg"
           alt="dark_green_forest_background"
         />
       </div>
 
-      <div class="right-container">
-        <h3>
-          You know you need something like this in your life to helf you realize
-          your deepest dreams.
-        </h3>
-        <p>You know you want to.</p>
+      <div class="right_container">
+        <div class="heading">
+          <p>
+            You know you need something like this in your life to help you
+            realize your deepest dreams.
+          </p>
+          <p>Sign up <em>now</em> to get started.</p>
+          <br />
+          <p>You <em>know </em> you want to.</p>
+        </div>
 
         <div class="user_info">
           <form id="user_form" action="https://httpbin.org/post" method="post">
-            <label for="first_name">FIRST NAME</label>
-            <input type="text" id="first_name" name="first_name" />
+            <fieldset>
+              <legend>Let's do this!</legend>
+              <div class="ask_box">
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" id="first_name" name="first_name" />
+              </div>
 
-            <label for="last_name">LAST NAME</label>
-            <input type="text" id="last_name" name="last_name" />
+              <div class="ask_box">
+                <label for="last_name">LAST NAME</label>
+                <input type="text" id="last_name" name="last_name" />
+              </div>
 
-            <label for="user_email">EMAIL</label>
-            <input type="email" id="user_email" name="user_email" />
+              <div class="ask_box">
+                <label for="user_email">EMAIL</label>
+                <input type="email" id="user_email" name="user_email" />
+              </div>
 
-            <label for="phone_no">PHONE NUMBER</label>
-            <input type="tel" id="phone_no" name="phone_no"/>
+              <div class="ask_box">
+                <label for="phone_no">PHONE NUMBER</label>
+                <input type="tel" id="phone_no" name="phone_no" />
+              </div>
 
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password" name="password"/>
+              <div class="ask_box">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password" />
+              </div>
 
-            <label for="confirm_password">CONFIRM PASSWORD</label>
-            <input type="password" id="confirm_password" name="confirm_password"/>
+              <div class="ask_box">
+                <label for="confirm_password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirm_password"
+                  name="confirm_password"
+                />
+              </div>
+            </fieldset>
 
             <!-- <input type="submit" id="submit_form" class="hidden" /> -->
           </form>
