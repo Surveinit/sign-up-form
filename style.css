@@ -66,10 +66,39 @@
   box-shadow:
     0 4px 10px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 26vh;
+}
+
+form {
+  padding: 20px;
+  height: 100%;
 }
 
 fieldset {
   border: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ask_box {
+  flex-basis: 48%;
+}
+
+label, input {
+  display: block;
+  margin: 0.2em;
+}
+
+legend {
+  font-size: 1.2em;
+  margin-left: 0.6em;
+}
+
+label {
+  font-size: 0.8em;
+}
+
+input {
+  height: 4vh;
+  min-width: 12vw;
 }
