@@ -114,6 +114,11 @@ input:valid {
   border: 2px solid red;
 }
 
+#password,
+#confirm-password {
+  border: 2px solid red;
+}
+
 .bottom-button {
   position: relative;
   top: 24px;
@@ -123,9 +128,10 @@ input:valid {
 button[type="submit"] {
   padding: 12px 24px 12px 24px;
   color: #f9fafb;
-  background-color: #596D48;
+  background-color: #596d48;
   font-weight: bold;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .bottom-button > p {
