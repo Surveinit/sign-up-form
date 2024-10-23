@@ -13,23 +13,23 @@
   /* overflow: hidden; */
 }
 
-.main_container {
+.main-container {
   display: flex;
 }
 
-.left_container {
+.left-container {
   position: relative;
   height: 100vh;
   width: 35vw;
 }
 
-#background_img {
+#background-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.logo_container {
+.logo-container {
   position: absolute;
   width: 100%;
   display: flex;
@@ -38,17 +38,17 @@
   padding-top: 30vh;
 }
 
-#odin_logo {
+#odin-logo {
   width: 20%;
 }
 
-#odin_text {
+#odin-text {
   font-family: "norse", sans-serif;
   color: white;
   font-size: 3em;
 }
 
-.right_container {
+.right-container {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 16vh;
   background-color: #f9fafb;
@@ -63,7 +63,7 @@
   font-size: 1.3em;
 }
 
-.user_info {
+.user-info {
   background-color: white;
   box-shadow:
     0 4px 10px 0 rgba(0, 0, 0, 0.2),
@@ -82,7 +82,7 @@ fieldset {
   justify-content: space-evenly;
 }
 
-.ask_box {
+.ask-box {
   flex-basis: 48%;
 }
 
@@ -110,11 +110,11 @@ input:valid {
   border: 2px solid green;
 }
 
-#user_email:invalid {
+#user-email:invalid {
   border: 2px solid red;
 }
 
-.bottom_button {
+.bottom-button {
   position: relative;
   top: 24px;
   left: 24px;
@@ -128,7 +128,7 @@ button[type="submit"] {
   border-radius: 8px;
 }
 
-.bottom_button > p {
+.bottom-button > p {
   position: relative;
   top: 8px;
 }
